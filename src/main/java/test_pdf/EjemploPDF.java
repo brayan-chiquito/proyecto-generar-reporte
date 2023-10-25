@@ -71,7 +71,15 @@ public class EjemploPDF {
             g.setColor(Color.black);
             g.drawString("Fecha de actualizacion: " + fecha_formateada, 412, 109);
 
+            g.setColor(Color.black);
+            g.drawString("REGISTRO FOTOGRÁFICO INSPECCIÓN,", 212, 69);
+            g.drawString("AFORO Y RECONOCIMIENTO A MERCANCÍAS", 200, 79);
+            g.drawString("(Exportación o Importación)", 230, 89);
 
+
+
+            g.setColor(Color.black);
+            g.drawRect(30, 150, 530, 650);
             //obalo
             //g.setColor(new Color(154, 171, 237));
             //g.fillOval(290, 90, 280, 100);
